@@ -16,7 +16,7 @@ public:
     // Deallocate (pop)
     int deallocate() {
         if (stack.empty()) {
-            return -1; // or handle underflow properly
+            return -1; // or handle underflow properly 
         }
         int val = stack.back();
         stack.pop_back();
